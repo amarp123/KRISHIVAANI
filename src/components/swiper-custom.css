@@ -1,0 +1,29 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: #28a745;
+}
+
+.swiper-pagination-bullet {
+  background: #ccc;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #28a745;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #e6f4ea, #c8e6c9); 
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.feature-card {
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}

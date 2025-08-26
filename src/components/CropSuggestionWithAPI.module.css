@@ -1,0 +1,55 @@
+/* CropSuggestionWithAPI.module.css */
+
+.container {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.languageSelector {
+  max-width: 200px;
+  margin: 0 auto 1rem auto;
+}
+
+.formSection {
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.suggestionBox {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  white-space: pre-wrap;
+}
+
+.historyTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.historyTable th,
+.historyTable td {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.historyTable th {
+  background-color: #f1f3f5;
+}
+
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #c82333;
+}
